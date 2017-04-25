@@ -1,6 +1,7 @@
 target
-!.mvn/wrapper/maven-wrapper.jar
+.idea
 .devopsbuddy.iml
+### !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -11,7 +12,6 @@ target
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea
 *.iws
 *.iml
 *.ipr
