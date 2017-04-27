@@ -4,13 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by macbookpro on 4/24/17.
+ * Created by macbookpro on 4/25/17.
  */
 @Controller
-public class HelloWorldController {
+public class gidIndexController {
     @RequestMapping("/")
-    public String sayHello()
+    public String home()
     {
         return "index";
     }
+
 }
